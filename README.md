@@ -49,7 +49,6 @@ This project involves:
 
 **Everything is free!**
 
-- **Datasets**: Access to the project dataset (CSV files).
 - **SQL Server Express**: Lightweight server for hosting your SQL database.  
   [Download SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - **SQL Server Management Studio (SSMS)**: GUI for managing and interacting with databases.  
@@ -57,9 +56,7 @@ This project involves:
 - **Git Repository**: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
 - **DrawIO**: Design data architecture, models, flows, and diagrams.  
   [DrawIO](https://app.diagrams.net/)
-- **Notion**: Get the project template and all phases/tasks from Notion.  
-  [Project Template](https://www.notion.so/) (link placeholder)
-- **Notion Project Steps**: Access to all project phases and tasks.
+- **Notion**: Get the project template and all phases/tasks from Notion.
 
 ---
 
@@ -94,26 +91,35 @@ For more details, refer to [docs/requirements.md](docs/requirements.md).
 ---
 
 ## 📂 Repository Structure
+
+```
 data-warehouse-project/
 │
-├── datasets/ # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/ # Project documentation and architecture details
-│ ├── etl.drawio # Draw.io file showing ETL techniques and methods
-│ ├── data_architecture.drawio # Draw.io file showing the project's architecture
-│ ├── data_catalog.md # Catalog of datasets, including field descriptions and metadata
-│ ├── data_flow.drawio # Draw.io file for the data flow diagram
-│ ├── data_models.drawio # Draw.io file for data models (star schema)
-│ └── naming-conventions.md # Consistent naming guidelines for tables, columns, and files
+├── docs/                               # Project documentation and architecture details
+│   ├── etl.drawio                      # Draw.io file shows all different techniques and methods of ETL
+│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
+│   ├── data_models.drawio              # Draw.io file for data models (star schema)
+│   └── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
-├── scripts/ # SQL scripts for ETL and transformations
-│ ├── bronze/ # Scripts for extracting and loading raw data
-│ ├── silver/ # Scripts for cleaning and transforming data
-│ └── gold/ # Scripts for creating analytical models
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   └── gold/                           # Scripts for creating analytical models
 │
-├── tests/ # Test scripts and quality files
+├── tests/                              # Test scripts and quality files
 │
-├── README.md # Project overview and instructions
-├── LICENSE # License information for the repository
-├── .gitignore # Files and directories to be ignored by Git
-└── requirements.txt # Dependencies and requirements for the project
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
+```
+
+
+
+## 👤 About Me
+
+I'm **Angel Moreno**, a Data Analyst with over 10 years of experience tracking KPIs, operational analytics, and executive reporting across banking, call center, and commercial sectors. I specialize in MySQL, Power BI (DAX), Excel (Power Query, Power Pivot), and Python (pandas, EDA), with growing expertise in SQL Server and Pentaho for ETL workflows. I've delivered measurable impact—increasing quality scores from 82% to 97%, reducing AHT by 22%, and detecting a $980K fraud signal through data analysis. Bilingual (Spanish/English C1) and Google Data Analytics certified, I'm passionate about turning raw data into actionable business insights.
